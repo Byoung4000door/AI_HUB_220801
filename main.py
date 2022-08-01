@@ -14,3 +14,14 @@ st.bar_chart(view)
 
 st.write('## line chart')
 st.line_chart(view)
+
+topics = [
+    {'id':1, 'title':'html', 'view':100},
+    {'id':2, 'title':'css', 'view':50},
+    {'id':3, 'title':'js', 'view':140}
+]
+st.write('## raw data')
+topics
+
+st.write('## table')
+st.table(topics)
